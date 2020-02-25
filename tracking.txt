@@ -1,7 +1,10 @@
-Overall - 11
+Overall - 12
 Easy - 11
-Medium - 0
+Medium - 1
 Hard - 0
+
+25.02.2020
+240(m)
 
 24.02.2020
 1351(e), 1221(e), 1266(e), 1290(e)
