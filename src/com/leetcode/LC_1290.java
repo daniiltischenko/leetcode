@@ -5,6 +5,17 @@ public class LC_1290 {
         System.out.println(getDecimalValue_01(new ListNode(1).setNext(new ListNode(0).setNext(new ListNode(1)))) == 5);
     }
 
+    private static class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
+
+        public ListNode setNext(ListNode next) {
+            this.next = next;
+            return this;
+        }
+    }
+
     static int getDecimalValue_01(ListNode head) {
         StringBuilder builder = new StringBuilder();
         while (head != null) {
@@ -13,16 +24,5 @@ public class LC_1290 {
         }
 
         return Integer.parseInt(builder.toString(), 2);
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-
-    public ListNode setNext(ListNode next) {
-        this.next = next;
-        return this;
     }
 }
