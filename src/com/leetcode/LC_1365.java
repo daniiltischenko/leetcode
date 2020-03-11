@@ -32,21 +32,22 @@ public class LC_1365 {
     }
 
     static int[] smallerNumbersThanCurrent_02(int[] nums) {
-        int[] lookUp = new int[101];
-        int prev = 0;
+        int[] numbers = new int[101];
+        int previous = 0;
         for (int i = 0; i < nums.length; i++) {
-            lookUp[nums[i]]++;
+            numbers[nums[i]]++;
         }
 
-        for (int i = 0; i < 101; i++) {
-            int temp = lookUp[i];
-            lookUp[i] = prev;
-            prev += temp;
+        for (int i = 0; i < numbers.length; i++) {
+            int number = numbers[i];
+            numbers[i] = previous;
+            previous += number;
         }
 
         for (int i = 0; i < nums.length; i++) {
-            nums[i] = lookUp[nums[i]];
+            nums[i] = numbers[nums[i]];
         }
+
         return nums;
     }
 }
