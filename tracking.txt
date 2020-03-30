@@ -1,7 +1,10 @@
-Overall - 13
-Easy - 12
+Overall - 14
+Easy - 13
 Medium - 1
 Hard - 0
+
+31.03.2020
+1(e)
 
 11.03.2020
 1365(e)
