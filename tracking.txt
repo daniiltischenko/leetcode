@@ -1,7 +1,10 @@
-Overall - 17
-Easy - 16
+Overall - 18
+Easy - 17
 Medium - 1
 Hard - 0
+
+06.04.2020
+1252(e)
 
 01.04.2020
 1299(e)
