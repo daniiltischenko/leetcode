@@ -1,7 +1,10 @@
-Overall - 29
-Easy - 28
+Overall - 30
+Easy - 29
 Medium - 1
 Hard - 0
+
+13.04.2020
+206(e)
 
 12.04.2020
 344(e), 242(e), 412(e)
