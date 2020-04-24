@@ -1,7 +1,10 @@
-Overall - 35
-Easy - 33
+Overall - 36
+Easy - 34
 Medium - 2
 Hard - 0
+
+24.04.2020
+217(e)
 
 18.04.2020
 169(e), 448(e)
