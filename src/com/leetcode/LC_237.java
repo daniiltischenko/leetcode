@@ -2,7 +2,7 @@ package com.leetcode;
 
 public class LC_237 {
 
-    public class ListNode {
+    private class ListNode {
         int val;
         ListNode next;
 
